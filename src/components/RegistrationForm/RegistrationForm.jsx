@@ -17,7 +17,7 @@ const registrationValidationSchema = Yup.object().shape({
     email: Yup.string().email("Must be a valid email!").required("Required")
   });
 
-const RegisterForm = () => {
+const RegistrationForm = () => {
     const dispatch = useDispatch();
     const error = useSelector(selectError);
 
@@ -133,4 +133,4 @@ const RegisterForm = () => {
   </Box>
 );};
 
-export default RegisterForm
+export default RegistrationForm

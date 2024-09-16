@@ -1,11 +1,11 @@
 import DocumentTitle from "../../components/DocumentTitle/DocumentTitle";
-import RegisterForm from "../../components/RegisterForm/RegisterForm";
+import RegistrationForm from "../../components/RegistrationForm/RegistrationForm";
 
 const RegistrationPage = () => {
   return (
     <>
         <DocumentTitle>Registration</DocumentTitle>
-        <RegisterForm/>
+        <RegistrationForm/>
     </>
   )
 }
