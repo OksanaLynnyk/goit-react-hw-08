@@ -38,7 +38,7 @@ function App() {
           backgroundAttachment: 'fixed',
         }}
       >
-        <Container sx={{p:15}} >
+        <Container sx={{pt:15}} >
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/register'element={<RestrictedRoute component={<RegistrationPage />} />} />
